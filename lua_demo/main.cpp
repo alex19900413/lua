@@ -86,7 +86,8 @@ int main(int argc, char *argv[])
     lua_pushnumber(lu,1);
     lua_getnum(lu);
     int add1 = lua_tonumber(lu,-1);
-    qDebug()<<"1 ++ = "<<add1;
+    qDebug()<<"1 ++ = "<<add1;      //test
+
 
     lua_close(lu);
 
